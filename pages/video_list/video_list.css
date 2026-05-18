@@ -67,6 +67,12 @@ main {
     width: 128px;
 }
 
+.preview_section > article > button img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
 .video-overlay {
     display: none;
     position: fixed;
@@ -135,6 +141,12 @@ main {
     margin: 0;
     font-size: 2rem;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.overlay-header img {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
 }
 
 .overlay-header img:first-child {

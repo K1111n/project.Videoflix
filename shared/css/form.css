@@ -25,7 +25,7 @@
     background-color: var(--form-input-bg-color);
     padding: var(--form-input-pad);
     display: flex;
-    gap: var(--form-input-pad);
+    gap: 16px;
     align-items: center;
     color: var(--font-prime-color)
 }
@@ -127,6 +127,18 @@ textarea {
 }
 
 
+@media screen and (max-width: 769px) {
+    .form_group_w_icon_wo_label,
+    .form_group_wo_icon_w_label input,
+    .form_group_wo_icon_w_label textarea {
+        gap: 8px;
+    }
+
+    .form_group_w_icon_wo_label label {
+        left: calc(8px + 20px + 8px);
+    }
+}
+
 @media screen and (max-width: 768px) {
     .form_group_w_icon_wo_label[error="true"] {
         margin-bottom: 20px;
@@ -178,7 +190,7 @@ textarea {
 .form_group_w_icon_wo_label label {
     position: absolute;
     height: 20px;
-    left: calc(20px + 14px + 14px);
+    left: calc(16px + 20px + 16px);
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;

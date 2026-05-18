@@ -1,3 +1,9 @@
+.std_btn img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
 .index_bg {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 1) 100%),
     url("./assets/img/index_bg.jpg");
