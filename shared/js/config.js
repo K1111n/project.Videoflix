@@ -3,7 +3,7 @@
  * Typically points to your backend server's API root.
  * @constant {string}
  */
-const API_BASE_URL = 'https://videoflix-backend.onrender.com/api/';
+const API_BASE_URL = 'https://videoflix-backend-aofb.onrender.com/api/';
 
 /**
  * Relative path for the login endpoint.
